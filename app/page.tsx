@@ -78,7 +78,7 @@ const cardStyle = {
     boxShadow: "0 0 24px rgba(0, 150, 255, 0.25)",
 };
 
-const avatarStyle = {
+const avatarStyle: React.CSSPProperties = {
     width: "80px",
     height: "80px",
     borderRadius: "50%",
