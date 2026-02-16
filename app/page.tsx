@@ -1,4 +1,4 @@
-
+import React from "react";
 export default function Home() {
     return (
         <div style={{ display: "flex", minHeight: "100vh", background: "#0b0b0b" }}>
