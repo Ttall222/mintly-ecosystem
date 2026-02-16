@@ -69,7 +69,7 @@ const navItem = {
     transition: "0.2s",
 } as const;
 
-const cardStyle = {
+const cardStyle: React.CSSPProperties = {
     background: "#fff",
     color: "#000",
     padding: "20px",
