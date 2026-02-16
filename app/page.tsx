@@ -69,7 +69,7 @@ const navItem = {
     transition: "0.2s",
 } as const;
 
-const cardStyle: React.CSSPProperties = {
+const cardStyle = {
     background: "#fff",
     color: "#000",
     padding: "20px",
@@ -78,7 +78,7 @@ const cardStyle: React.CSSPProperties = {
     boxShadow: "0 0 24px rgba(0, 150, 255, 0.25)",
 };
 
-const avatarStyle: React.CSSPProperties = {
+const avatarStyle = {
     width: "80px",
     height: "80px",
     borderRadius: "50%",
