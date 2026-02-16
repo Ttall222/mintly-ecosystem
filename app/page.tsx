@@ -1,4 +1,4 @@
-import React from "react";
+import type { CSSProperties } from "react";
 export default function Home() {
     return (
         <div style={{ display: "flex", minHeight: "100vh", background: "#0b0b0b" }}>
@@ -69,7 +69,7 @@ const navItem = {
     transition: "0.2s",
 };
 
-const cardStyle = {
+const cardStyle: CSSProperties = {
     background: "#fff",
     color: "#000",
     padding: "20px",
@@ -78,7 +78,7 @@ const cardStyle = {
     boxShadow: "0 0 24px rgba(0, 150, 255, 0.25)",
 };
 
-const avatarStyle = {
+const avatarStyle: CSSProperties = {
     width: "80px",
     height: "80px",
     borderRadius: "50%",
