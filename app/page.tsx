@@ -67,7 +67,7 @@ const navItem = {
     cursor: "pointer",
     opacity: 0.8,
     transition: "0.2s",
-} as const;
+};
 
 const cardStyle = {
     background: "#fff",
